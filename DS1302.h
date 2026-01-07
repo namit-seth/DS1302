@@ -1,5 +1,5 @@
-#ifndef MYLIBRARY_H
-#define MYLIBRARY_H
+#ifndef DS1302_H
+#define DS1302_H
 
 #include "Arduino.h" // Needed for Arduino functions like digitalWrite()
 
