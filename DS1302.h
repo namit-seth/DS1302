@@ -20,8 +20,6 @@ class Time
 class DS1302 {
   public:
     DS1302(int RST, int DAT, int CLK); // Constructor
-    ~DS1302(); // Destructor
-    // Add return from Dump functions
     void CLK_Dump(int* Data);
     void RAM_Dump(int* Data);
     void Write_to_RAM(byte DATA, int LOCATION = 32);
